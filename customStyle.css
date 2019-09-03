@@ -1,0 +1,28 @@
+
+.ac-thumbnail{
+	cursor: pointer;
+}
+
+.ac-thumbnail:hover{
+	-webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+	    box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+	    border: 2px solid #fb397d;
+}
+
+
+.btn.preorder-btn {
+    background: #6f42c1;
+    height: 48px;
+    min-width: 185px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 22px 25px 22px 0;
+}
+
+.btn.preorder-btn:hover {
+    background: #fb397d;
+    color: #fff;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}

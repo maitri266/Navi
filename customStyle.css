@@ -26,3 +26,12 @@
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
 }
+
+.navicon{
+    min-width: 60px;
+    min-height: 60px;
+    width: 50px;
+    max-width: 70px;
+    max-height: 70px;
+
+}

@@ -447,7 +447,7 @@
                 <div class="col-md-6">
                     <!-- Form Start-->
                     <div class="contact_from">
-                        <form action="mailto:snb.navi@gmail.com" enctype="text/plain">
+                        <form action="send.php" method="post">
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div class="row">
@@ -463,6 +463,11 @@
                                             <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
                                         </div>
                                     </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="subject" id="email" placeholder="Your Subject" required>
+                                        </div>
+                                    </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-12">
                                         <div class="form-group">
@@ -471,7 +476,7 @@
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-12">
-                                        <input type="submit" class="btn submit-btn" name="submit" value="Send">
+                                        <input type="submit" class="btn submit-btn" name="submit" value="submit">
                                     </div>
                                 </div>
                             </div>

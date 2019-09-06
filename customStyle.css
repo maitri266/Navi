@@ -34,3 +34,12 @@
     max-height: auto;
 
 }
+
+
+.rightborder{
+    border-right: 2px solid #fb397d;
+}
+
+.left-border{
+    border-left: 2px solid #fb397d;
+}

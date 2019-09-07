@@ -5,3 +5,6 @@ $(document).ready(function() {
     $(modalId).modal('show');
 	});
 });
+
+const observer = lozad();
+observer.observe();

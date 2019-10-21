@@ -43,3 +43,9 @@
 .left-border{
     border-left: 2px solid #fb397d;
 }
+
+.october{
+	color:red;
+	width:200px;
+	height:200px;
+}
